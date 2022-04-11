@@ -105,7 +105,7 @@ class AnimatedBottomNavigationBar extends StatefulWidget {
     this.gapWidth,
   })  : assert(icons != null || itemCount != null),
         assert(((itemCount ?? icons!.length) >= 2) &&
-            ((itemCount ?? icons!.length) <= 5)),
+            ((itemCount ?? icons!.length) <= 7)),
         super(key: key) {
     if (gapLocation == GapLocation.end) {
       if (rightCornerRadius != 0)
